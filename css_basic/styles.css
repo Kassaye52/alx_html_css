@@ -29,3 +29,34 @@ body {
     flex-shrink: 0; /* Prevent them from shrinking */
   }
   
+  body {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+    font-family: 'Arial', sans-serif; /* Default font */
+  }
+
+  /* Header styles */
+header {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    padding: 1rem 0; /* Padding around the header content */
+  }
+
+  /* Navigation link styles */
+nav a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* No underline on links */
+    padding: 0 1rem; /* Spacing around links */
+  }
+  
+  /* Article styles */
+  article {
+    background-color: #fff; /* White background for the content */
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 1rem; /* Padding inside the article */
+  }
+ /* Logo styles - assuming the CSS rule for .logo is already added as you mentioned */
+.logo {
+    font-size: 2rem; /* Larger size for the logo character */
+    margin-left: 1rem; /* Space from the left side of the header */
+  } 
