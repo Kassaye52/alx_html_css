@@ -1,0 +1,31 @@
+/* Apply a flex container to the body to manage layout in a column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the full viewport height */
+  }
+  
+  /* Apply a flex container to main, laying out its children in a row */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow main to grow and shrink as needed */
+  }
+  
+  /* Set the article to take 2/3 of the width */
+  article {
+    flex: 2; /* 2/3 of the space */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+  }
+  
+  /* Set the aside to take 1/3 of the width */
+  aside {
+    flex: 1; /* 1/3 of the space */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+  }
+  
+  /* Additional styles to make the footer and header take their content's height */
+  header, footer {
+    flex-shrink: 0; /* Prevent them from shrinking */
+  }
+  
