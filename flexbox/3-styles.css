@@ -372,8 +372,13 @@
       .section-latest-news .row {
         flex-direction: row-reverse;
     }
+
+  /* Section SERVICES ============================= */
+
   /*** 4. CARD ***/
-  
+  .section-SERVICES .row {
+    flex-wrap: wrap;
+  }
   /* Card (all styles)
       ============================= */
   
