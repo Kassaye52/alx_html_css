@@ -66,7 +66,7 @@
     --footer-padding: 5rem 0 1rem;
   
     /** NAVBAR **/
-  
+    --nav-item-margin: 0 0 0 2rem;
   
     /** BUTTON **/
     --button-display: inline-block;
@@ -207,13 +207,14 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
+    
     
   }
   /* New rule for .nav-item + .nav-item */
 .nav .nav-item + .nav-item {
-
+  margin: 0 0 0 2rem;
 }
+
   
   .nav .nav-link {
     display: block;
