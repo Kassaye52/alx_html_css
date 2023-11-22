@@ -61,23 +61,12 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    --header-logo-position: relative;
-    --header-logo-link-display: inline-block;
-    --header-logo-link-position: absolute;
-    --header-logo-link-top: -1rem;
-    --header-logo-link-left: 0;
   
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
     /** NAVBAR **/
-    --nav-item-font-family: var(--font-family-headings);
-    --nav-item-font-weight: var(--font-weight-bold);
-    --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: .04rem;
-    --nav-item-display: inline-block;
-    --nav-item-margin: 0 2rem 0 0;
-    --nav-item-link-hover: var(--color-white);
+  
   
     /** BUTTON **/
     --button-display: inline-block;
@@ -251,6 +240,11 @@
   /* Header
       ============================= */
   
+  .header-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
   .header {
     padding: var(--header-padding);
          position: relative;
@@ -258,9 +252,12 @@
          background: transparent;
   }
   
-  .header-container {
-    display: flex;
-    justify-content: space-between;
+  .header-logo {
+    
+  }
+  
+  .header-logo a {
+   
   }
   
   /* Footer
