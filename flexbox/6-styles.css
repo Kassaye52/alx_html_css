@@ -191,7 +191,7 @@
       ============================= */
   
   .navbar-menu {
-    display: flex;
+    
   }
   
   .nav {
@@ -199,6 +199,7 @@
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
   }
   
   .nav .nav-item {
@@ -206,11 +207,12 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(0 0 0 2rem);
+    margin: var(--0 0 0 2rem);
+    
   }
   /* New rule for .nav-item + .nav-item */
 .nav .nav-item + .nav-item {
-  margin-left: var(--nav-item-margin-left, 2rem);
+  margin: var(0 0 0 2rem);
 }
   
   .nav .nav-link {
