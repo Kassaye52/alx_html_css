@@ -179,5 +179,87 @@ body, html {
     font-size: 14px; 
   }
   
+/* Tutorials Section Styles */
+.tutorials-section {
+    background-color: #f8f8f8; 
+    text-align: center; 
+    padding: 40px 0; 
+  }
+  
+  .section-title {
+    margin-bottom: 30px; 
+    font-size: 2em;
+    color: #333; 
+  }
+  
+  .tutorials-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+  }
+  
+  .tutorial {
+    width: 220px; 
+    margin: 10px; 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  }
+  
+  .tutorial-image {
+    width: 100%; 
+    display: block;
+  }
+  
+  .tutorial-title {
+    margin: 10px 0; 
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .tutorial-description {
+    font-size: 0.9em;
+    margin: 0 10px; 
+    color: #666;
+  }
+  
+  .tutorial-meta {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+  }
+  
+  .tutorial-author {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tutorial-duration {
+    background-color: #e1e1e1; 
+    border-radius: 15px; 
+    padding: 5px 10px; 
+    font-size: 0.8em;
+  }
+  
+  .tutorial-rating {
+   
+  }
+  
+  /* Responsive adjustments as needed for smaller screens */
+  @media (max-width: 768px) {
+    .tutorials-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tutorial {
+      width: 80%; 
+      margin: 10px 0; 
+    }
+  }
+  
 
+  
   
