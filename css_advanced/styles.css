@@ -260,6 +260,67 @@ body, html {
     }
   }
   
+/* Membership Section Styles */
+.membership-section {
+    background-color: #333366; 
+    color: white;
+    text-align: center; 
+    padding: 40px 0; 
+}
+
+.section-title {
+    margin-bottom: 20px; 
+    font-size: 2em;
+}
+
+.membership-options {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
+}
+
+.membership-option {
+    width: 200px; 
+    margin: 10px; 
+}
+
+.icon {
+    /* Style your icons/images here */
+    font-size: 2em; 
+}
+
+.membership-option-title {
+    font-size: 1.2em;
+    margin: 10px 0; 
+}
+
+.membership-option-description {
+    font-size: 0.9em;
+}
+
+.register-btn {
+    background-color: #8A2BE2; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 20px; 
+    cursor: pointer;
+    text-transform: uppercase; 
+}
+
+/* Add responsive styling as needed */
+@media (max-width: 768px) {
+    .membership-options {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .membership-option {
+        width: 80%; 
+    }
+}
 
   
   
