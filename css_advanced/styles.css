@@ -89,6 +89,12 @@ body, html {
   font-size: 18px;
   border-radius: 5px;
 }
+.middle-text {
+    text-align: center;
+    font-size: 24px; 
+    color: #ffffff; 
+    margin: 20px 0;
+}
 
 .profile-section {
   display: flex;
@@ -120,3 +126,58 @@ body, html {
   color: gray;
   font-size: 14px;
 }
+
+
+/* Testimonial Section Styles */
+.testimonial-section {
+    background-color: #8A2BE2; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  .testimonial-profile {
+    padding: 10px;
+    border-radius: 50%; 
+    background-color: white; 
+    display: inline-block;
+    margin-right: 20px; 
+  }
+  
+  .testimonial-image {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    display: block;
+  }
+  
+  .testimonial-content {
+    text-align: left; 
+  }
+  
+  .testimonial-quote {
+    font-style: italic; 
+    color: white;
+    font-size: 18px; 
+  }
+  
+  .testimonial-author {
+    color: white;
+    margin-top: 10px; 
+    font-weight: bold; 
+  }
+  
+  .testimonial-title {
+    color: white;
+    font-size: 14px; 
+  }
+  
+
+  
